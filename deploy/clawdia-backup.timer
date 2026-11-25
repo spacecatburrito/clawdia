@@ -1,0 +1,10 @@
+[Unit]
+Description=Run the Clawdia backup nightly
+
+[Timer]
+OnCalendar=*-*-* 03:30 Europe/Lisbon
+Persistent=true
+Unit=clawdia-backup.service
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,82 @@
+{
+  "about": "Payments platform",
+  "checked_at": "2026-11-09T12:00:00+00:00",
+  "comp": "",
+  "company": "Acme",
+  "cv": {
+    "primary": {
+      "id": "payments-lead",
+      "reason": "fit"
+    },
+    "runners_up": [
+      {
+        "id": "generalist",
+        "reason": "broad"
+      }
+    ]
+  },
+  "cv_suggestion": {
+    "drive_url": "https://docs.google.com/document/d/abc/edit",
+    "id": "payments-lead",
+    "name": "Product Lead Payments",
+    "reason": "fit",
+    "runners_up": [
+      {
+        "id": "generalist",
+        "name": "Generalist PM",
+        "reason": "broad"
+      }
+    ]
+  },
+  "dropped_points": 0,
+  "gates": {
+    "comp": {
+      "note": "",
+      "result": "pass"
+    },
+    "exclusion": {
+      "note": "",
+      "result": "pass"
+    },
+    "liveness": {
+      "note": "",
+      "result": "pass"
+    },
+    "location": {
+      "note": "",
+      "result": "pass"
+    },
+    "ownership": {
+      "note": "",
+      "result": "pass"
+    }
+  },
+  "injection_suspected": false,
+  "location": "Remote (Europe)",
+  "official_url": "https://jobs.ashbyhq.com/acme/0b6c2f6e-1111-2222-3333-444455556666",
+  "posting_state": "live",
+  "rating": 4,
+  "requirements": [
+    {
+      "evidence": "Led a card payments product",
+      "match": "direct",
+      "requirement": "Payments product"
+    }
+  ],
+  "requisition_key": "ashby:0b6c2f6e-1111-2222-3333-444455556666",
+  "risks": [
+    "Comp unknown"
+  ],
+  "role": "Head of Product",
+  "skip_reason": "",
+  "sources": [
+    "https://jobs.ashbyhq.com/acme/0b6c2f6e-1111-2222-3333-444455556666"
+  ],
+  "verdict": "apply",
+  "why_fit": [
+    {
+      "evidence": "Led a card payments product",
+      "point": "Led a payments product"
+    }
+  ]
+}

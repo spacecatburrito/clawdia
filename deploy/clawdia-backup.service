@@ -1,0 +1,23 @@
+[Unit]
+Description=Clawdia nightly backup (SQLite copy and media)
+
+[Service]
+Type=oneshot
+User=clawdia
+Group=clawdia
+WorkingDirectory=/var/lib/clawdia
+Environment=CLAWDIA_STATE_DIR=/var/lib/clawdia
+ExecStart=/bin/bash /opt/clawdia/deploy/backup.sh
+UMask=0077
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+PrivateDevices=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictSUIDSGID=true
+RestrictAddressFamilies=AF_UNIX
+ReadWritePaths=/var/lib/clawdia /var/backups/clawdia
+CapabilityBoundingSet=
